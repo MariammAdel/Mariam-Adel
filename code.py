@@ -5,7 +5,7 @@ def quicksort(A, start, end):
         quicksort(A, parti+1, end)
 
 def lomutoPartition(A, start, end):
-    pivot = A[end]
+    pivot = A[end] #sets the pivot to the last element in the array
     i = low-1
     for j in range(start, end):
         if pivot >= A[j]:
